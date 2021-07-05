@@ -12,20 +12,23 @@ import Layout from './components/Layout.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld,
+    // HelloWorld
     Layout
   }
 }
 </script>
 
-<style>
+<style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2A4254;
+  color: $test-color;
   /* margin-top: 60px; */
   background-color: #2A4254;
+}
+body{
+  margin: 0px;
 }
 </style>
