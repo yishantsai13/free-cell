@@ -1,2 +1,10 @@
 $test-color: purple;
 
+$card-height: 22vh;
+$card-width: 9vw;
+
+@mixin card-container {
+  height: $card-height;
+  width: $card-width;
+  border-radius: 15px;
+}

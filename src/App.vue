@@ -5,17 +5,16 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Layout from './components/Layout.vue'
-
+import HelloWorld from "./components/HelloWorld.vue";
+import Layout from "./components/Layout.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     // HelloWorld
-    Layout
-  }
-}
+    Layout,
+  },
+};
 </script>
 
 <style lang="scss">
@@ -26,9 +25,12 @@ export default {
   text-align: center;
   color: $test-color;
   /* margin-top: 60px; */
-  background-color: #2A4254;
+  background-color: #2a4254;
 }
-body{
+body {
   margin: 0px;
+}
+* {
+  box-sizing: border-box;
 }
 </style>
